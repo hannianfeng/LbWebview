@@ -3,7 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'maven-publish'
 }
-group='com.github.com.hannianfneg.webview'
+
 android {
     namespace 'com.han.webview'
     compileSdk 33
@@ -60,23 +60,22 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    implementation 'com.android.tools.build:gradle:8.1.0-alpha02'
-    implementation 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.21'
-    implementation 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+
+//    implementation 'com.github.dcendents:android-maven-gradle-plugin:2.1'
 
     //动画 https://lottiefiles.com/
-    api 'com.airbnb.android:lottie:4.2.0'
-    api 'io.github.youth5201314:banner:2.2.2'
-    api 'com.github.bumptech.glide:glide:4.14.2'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+//    api 'com.airbnb.android:lottie:4.2.0'
+//    api 'io.github.youth5201314:banner:2.2.2'
+//    api 'com.github.bumptech.glide:glide:4.14.2'
+//    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
 
-    api 'com.squareup.okhttp3:okhttp:5.0.0-alpha.2'
-    api 'com.squareup.retrofit2:retrofit:2.9.0'
-    api 'com.squareup.retrofit2:converter-gson:2.9.0'
-    api 'com.squareup.picasso:picasso:2.71828'
-
-    api 'com.appsflyer:af-android-sdk:6.10.0'
-    api "com.android.installreferrer:installreferrer:2.2"
+//    api 'com.squareup.okhttp3:okhttp:5.0.0-alpha.2'
+//    api 'com.squareup.retrofit2:retrofit:2.9.0'
+//    api 'com.squareup.retrofit2:converter-gson:2.9.0'
+//    api 'com.squareup.picasso:picasso:2.71828'
+//
+//    api 'com.appsflyer:af-android-sdk:6.10.0'
+//    api "com.android.installreferrer:installreferrer:2.2"
 //    implementation 'com.github.jitpack:android-example:1.0.1'
 //    implementation ('com.example:problematic-library:1.0.0') {
 //        exclude group: 'META-INF', module: 'AL2.0'
