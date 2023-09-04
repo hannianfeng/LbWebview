@@ -13,7 +13,7 @@ class H5MainActivity : BaseActivity<ActivityH5MainBinding>() {
         val h5 = vb.h5
         h5.setActivity(this@H5MainActivity,object :H5WebView.LW{
             override fun onProgressChanged(progress: Int) {
-                vb.lottie.visibility= View.GONE
+//                vb.lottie.visibility= View.GONE
             }
         })
         if (stringExtra != null) {
